@@ -1,3 +1,7 @@
+## The first function defines the matrix (set) and computes its inverse (setinv)
+## and also retrieves it by get and getinv. The matrices are set in cache by <<-
+## The second function tests if function is in cache, in which case it does not
+## recompute. If there is no inverse yet, it will calculate as normal
 
 ## Function to create a cacheable matrix along with its inverse
 makeCacheMatrix <- function(x = matrix()) {
